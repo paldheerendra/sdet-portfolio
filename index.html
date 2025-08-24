@@ -6,8 +6,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>SDET - Dheerendra Singh Pal</title>
     <meta name="description" content="SDET Portfolio | Showcasing Advanced Automation Frameworks, API Testing Expertise, and End-to-End QA Engineering Solutions" />
+
+    <script>
+    function showTab(tabId) {
+      document.querySelectorAll(".tab-content").forEach((content) => {
+        content.style.display = "none";
+      });
+      document.getElementById(tabId).style.display = "block";
+    }
+    </script>
+<style>
+    .tabs {
+      display: flex;
+      cursor: pointer;
+      margin-bottom: 1rem;
+    }
+    .tab {
+      padding: 0.5rem 1rem;
+      border: 1px solid #ccc;
+      border-bottom: none;
+      background-color: #f9f9f9;
+    }
+    .tab:hover {
+      background-color: #e9e9e9;
+    }
+    .tab-content {
+      border: 1px solid #ccc;
+      padding: 1rem;
+      display: none;
+    }
+  </style>
 </head>
 <body class="bg-gray-50 text-gray-800">
+<!--<div class="tabs">
+    <div class="tab" onclick="showTab('about')">About</div>
+    <div class="tab" onclick="showTab('contact')">Contact</div>
+</div>-->
 <!-- React will mount here -->
 <div id="root"></div>
 <script type="module" src="/src/index.jsx"></script>

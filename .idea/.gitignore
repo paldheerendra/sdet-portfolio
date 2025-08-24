@@ -1,4 +1,9 @@
 # Default ignored files
 /shelf/
 /workspace.xml
-.idea
+/.idea/
+/.vscode/
+/.DS_Store
+/.git/
+/.node_modules/
+/.cache/

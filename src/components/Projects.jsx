@@ -9,8 +9,8 @@ export default function Projects() {
     },
     {
       title: "Automation Framework",
-      desc: "Custom-built Selenium + TestNG + Maven framework integrated with Jenkins.",
-      link: "https://github.com/paldheerendra/RecruitCRMTest",
+      desc: "🚀 Fusion Automation Framework – One framework to automate Web, Android, and iOS with ease",
+      link: "https://github.com/paldheerendra/Fusion_Automation_Web_Mobile_Framework",
     },
     {
       title: "API Test Suite",
